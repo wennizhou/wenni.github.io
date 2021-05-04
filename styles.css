@@ -1,0 +1,363 @@
+body {
+  		background-color: #000;
+      font-size: 1.4em;
+  		color: #AEA48A;
+  		font-family: sans-serif;
+      line-height: 1.6;
+ 			transition: background-color 2s, color 2s;
+      display: block;
+      margin: 0px;
+			}
+body.changeColor {
+ 			background-color: #F4F4F4;
+  		color: #AEA48A;
+			}
+h1{
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+}
+.smalllogo{
+      width: 9%;
+      opacity: 50%;
+      margin-bottom: 10px;
+      }
+.intro{
+  		height: 100vh;
+      width: 65%;
+      margin: auto;
+  		display: flex;
+  		flex-direction: column;
+  		justify-content: center;
+			}
+.outro {
+      width: 100%;
+      margin: auto;
+      margin-top: 100px;
+      background-color: white;
+}
+.endtro{
+      height: 50vh;
+      width: 65%;
+      margin-top: 600px;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      }   
+.centerimg {      
+      width: 100%;
+      margin: auto;
+      margin-top: 10px;
+}
+.centerimg2 {      
+      width: 90%;
+      margin: auto;
+      margin-top: 10px;
+      margin-left: 5%;
+}
+.leftimg {      
+      width: 400px;
+      margin-left: 50px;
+      display: inline-block;
+      margin-top: 10px;
+}
+.projecttitle {
+      color: black;
+      margin: auto;
+      font-size: 2em;
+      text-align: center;
+      font-family: 'Inter', sans-serif;
+      font-weight: 700;
+}
+.projecttitleside {
+      color: black;
+      margin: auto;
+      font-size: 2em;
+      text-align: left;
+      font-family: 'Inter', sans-serif;
+      width: 75%;
+}
+.projectdescription {
+      color: black;
+      margin: auto;
+      font-size: 0.9em;
+      text-align: center;
+      width: 78%;
+      font-family: 'Inter', sans-serif;
+      font-weight: 400;
+      margin-top: 10px;
+}
+.projectdescriptionside {
+      color: black;
+      margin: auto;
+      font-size: 0.9em;
+      text-align: left;
+      width: 75%;
+      font-family: 'Inter', sans-serif;
+      font-weight: 400;
+      margin-top: 15px;
+}
+.rightsection{
+    width: 40%;
+    position: absolute;
+    padding-top: 200px;
+    margin-left: 480px;
+    display: inline-block;
+}
+.projectdate {
+      color: #AEA48A;
+      margin: auto;
+      font-size: 1.5em;
+      text-align: center;
+      width: 30%;
+      font-family: 'Cormorant', serif;
+}
+.projectdateside {
+      color: #AEA48A;
+      margin:auto;
+      font-size: 1.5em;
+      text-align: left;
+      width: 75%;
+      font-family: 'Cormorant', serif;
+}
+.workdate {
+  width: 300px;
+  overflow: left;
+  text-align: left;
+  display: inline-block; 
+  font-family: monospace;
+  font-size: 1em;
+  line-height: 0.6em;
+  font-family: 'Cormorant', serif;
+  opacity: 0.5;
+}
+.workplace {
+  width: 320px;
+  overflow: left;
+  text-align: left;
+  display: inline-block; 
+  font-family: serif;
+  font-size: 0.8em;
+  line-height: 0.6em;
+  font-family: 'Cardo', serif;
+}
+.container{
+  background-color: white; 
+  padding-top: 120px; 
+  padding-bottom: 180px; 
+  margin: auto;
+  width: 65%;
+}
+
+.expand-link{
+  width: 60px;
+  margin: auto;
+}
+.icon-expand{
+  width: 100%;
+  margin: auto;
+}
+.icon-contract{
+  width: 100%;
+  margin: auto;
+  margin-bottom: 28px;
+}
+.expand-link .icon-contract {
+  display: none;
+}
+.expand-link:hover .icon-expand,
+.expand-link:active .icon-expand{
+  display: none;
+}
+.expand-link:hover .icon-contract,
+.expand-link:active .icon-contract{
+  display: inline;
+}
+
+hr.solid {
+  border-top: 1px solid #E9E6DF;
+  margin: auto;
+  width: 100%;
+  margin-top: 100px;
+}
+
+@media only screen and (max-width:1480px) {
+.rightsection {
+    width: 40%;
+    position: absolute;
+    padding-top: 140px;
+    margin-left: 400px;
+    display: inline-block;
+    }
+.leftimg {      
+    width: 350px;
+    margin-left: 0px;
+    display: inline-block;
+    margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width:1274px) {
+.rightsection {
+    width: 78%;
+    margin: auto;
+    display: block;
+    position: relative;
+    }
+.leftimg {      
+    width: 50%;
+    margin: auto;
+    display: block;
+    margin-top: 50px;
+    }
+.projecttitleside {
+      color: black;
+      margin: auto;
+      font-size: 2em;
+      text-align: center;
+      font-family: 'Inter', sans-serif;
+      width: 100%;
+}
+.projectdescriptionside {
+      color: black;
+      margin: auto;
+      font-size: 0.9em;
+      text-align: center;
+      width: 100%;
+      font-family: 'Inter', sans-serif;
+      font-weight: 400;
+      margin-top: 15px;
+}
+.projectdateside {
+      color: #AEA48A;
+      margin:auto;
+      font-size: 1.5em;
+      text-align: center;
+      width: 75%;
+      font-family: 'Cormorant', serif;
+}
+.workplace {
+  width: 320px;
+  overflow: left;
+  text-align: left;
+  display: inline-block; 
+  font-family: serif;
+  font-size: 0.8em;
+  line-height: 0.6em;
+  font-family: 'Cardo', serif;
+  }
+}
+
+@media only screen and (max-width:960px) {
+h1{
+  font-size: 1.6em;
+}
+.intro{
+  width: 70%;
+  }
+.workdate {
+  width: 200px;
+}
+.projecttitle {
+  font-size: 1.6em;
+}
+.projecttitleside {
+  font-size: 1.6em;
+}
+.projectdescription {
+ font-size: 0.7em;
+}
+.projectdescriptionside {
+ font-size: 0.7em;
+}
+.container{
+  padding-top: 100px; 
+  padding-bottom: 120px; 
+}
+.endtro{
+  height: 30vh;
+}  
+.expand-link{
+  width: 40px;
+  margin: auto;
+}
+.icon-contract{
+  margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width:742px) {
+h1{
+  font-size: 1.2em;
+}
+.intro{
+  width: 70%;
+  }
+.workdate {
+  width: 200px;
+  font-size: 0.8em;
+}
+.workplace {
+  font-size: 0.8em;
+}
+.projectdate {
+ font-size: 1em; 
+}
+.projectdateside {
+ font-size: 1em; 
+}
+.projecttitle {
+  font-size: 1.4em;
+}
+.projecttitleside {
+  font-size: 1.4em;
+}
+.projectdescription {
+ font-size: 0.7em;
+ margin-bottom: 20px;
+}
+.projectdescriptionside {
+ font-size: 0.7em;
+ margin-bottom: 20px;
+}
+.container{
+  padding-top: 100px; 
+  padding-bottom: 80px; 
+  width: 75%;
+}
+.endtro{
+  height: 20vh;
+}  
+.expand-link{
+  width: 40px;
+  margin: auto;
+}
+.icon-contract{
+  margin-bottom: 18px;
+  }
+}
+
+@media only screen and (max-height:878px) {
+.intro {
+  height: 120vh;
+}
+}
+@media only screen and (max-height:715px) {
+.intro {
+  height: 140vh;
+}
+}
+@media only screen and (max-height:615px) {
+.intro {
+  height: 160vh;
+}
+/*.smalllogo{
+width: 8%;
+  }
+}*/
+@media only screen and (max-height:560px) {
+.intro {
+  height: 180vh;
+}
+}
+
